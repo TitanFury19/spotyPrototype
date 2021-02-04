@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  httpUrl: 'https://api.spotify.com/v1',
+  httpUrlToken: 'https://accounts.spotify.com/api/token',
+  newReleaseUrl: 'browse/new-releases'
 };
 
 /*
